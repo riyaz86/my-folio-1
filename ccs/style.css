@@ -1,0 +1,121 @@
+/* common css*/
+*{
+    margin:0 ;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a{
+text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 1170;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+
+
+.card{
+    width: 50%;
+}
+body{font-family: 'Open Sans', sans-serif;}
+
+/*common css end*/
+
+
+
+/*nav*/
+nav{
+    background-color: #02918c;
+}
+nav .logo{
+    width: 50%;
+    padding: 0 0 0 66px;
+}
+
+nav .menu{
+    width: 50%;
+}
+nav ul li{
+    display:inline-block ;
+}
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+    padding: 26px 25px ;
+    display: inline-block;
+}
+
+
+/*nav end*/
+
+/* banner */
+#banner{
+    background-color: rgba(0, 0, 0, 0.35);
+    background-image: url(../image/benar.jpeg);
+    padding: 210px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: white;
+
+}
+
+.banner_cnt{
+    text-align: center;
+}
+
+.banner_cnt h3{
+font-weight: 400;
+font-size: 30px;
+}
+
+.banner_cnt h1{
+    font-weight: 800;
+    font-size: 68px;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    
+}
+.banner_cnt p{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.banner_cnt img{
+    display: block;
+    margin: auto;
+    padding: 52px 0;
+}
+
+
+.banner_cnt a{
+    font-weight: 800;
+        text-decoration: none;
+        background-color: #cfc91d;
+        color: black;
+        padding: 19px 46px;
+}
+/* banner end */
+
+
+
+
+
+
+
+
+
+
+
